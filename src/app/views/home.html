@@ -1,0 +1,21 @@
+
+<md-toolbar color="primary">
+<div>
+  <button md-button (click)="sidenav.open()">
+    <md-icon>home</md-icon>
+  </button>
+</div>
+<span>AverageBrains</span>
+</md-toolbar>
+<md-sidenav-container >
+  <md-sidenav #sidenav >
+    <h3>coming soon..!</h3>
+  </md-sidenav>
+<h1 *ngIf="showElement">hello ...this is Mula Rakesh Reddy</h1>
+<h2>Technologies that i know</h2>
+<ul>
+<li *ngFor="let n of technologies">{{n}}</li>
+</ul>
+<h3>DOB : {{dob |date}}</h3>
+<p>current CTC :  {{ salary | currency:"INR"}}</p>
+</md-sidenav-container>

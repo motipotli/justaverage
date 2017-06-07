@@ -2,6 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  templateUrl: `app/views/home.html`
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent  {
+  showElement=true;
+  dob=new Date(1991,11,13);
+  salary=1400000;
+  technologies =['Advanced Java','AngularJS 1/2/4','SQL','Shell Scripting','HTML'];
+}
