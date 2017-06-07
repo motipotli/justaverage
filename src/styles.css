@@ -22,3 +22,10 @@ html, body, material-app, md-sidenav-container, .my-content {
 .example-spacer {
   flex: 1 1 auto;
 }
+.example-card {
+  width: 100%;
+}
+
+.example-header-image {
+  background-size: cover;
+}
