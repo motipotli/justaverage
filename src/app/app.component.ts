@@ -17,6 +17,10 @@ export class AppComponent  {
     'Python',
     'Hadoop',
     'MR',
+    'Python',
+    'Hadoop',
+    'MR',
+    'Hive',
     'Hive',
     'PIG',
     'AngularJS 1&2/4',
@@ -25,7 +29,5 @@ export class AppComponent  {
     'Angular Material',
     'SQL',
     'Shell Scripting',
-    'HTML',
-    'CSS',
-    'jQuery'];
+    'HTML'];
 }
