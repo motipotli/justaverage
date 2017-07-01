@@ -17,7 +17,6 @@ export class AppComponent  {
     'Python',
     'Hadoop',
     'MR',
-    'Hive',
     'PIG',
     'AngularJS 1&2/4',
     'Spring MVC',
