@@ -26,5 +26,6 @@ export class AppComponent  {
     'SQL',
     'Shell Scripting',
     'HTML',
-    'CSS'];
+    'CSS',
+    'jQuery'];
 }
